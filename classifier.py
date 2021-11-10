@@ -4,7 +4,16 @@ import math
 import random
 
 """
-MLP Algorithm from scratch by Benjamin Hake
+Multi Layer Perceptron Algorithm 
+Tested using open-use wine-dataset
+Benjamin Hake
+
+Perceptron Method Mean Accuracy of 5-fold testing:
+95.28 %
+
+Random Guess Method Mean Accuracy of 5-fold testing:
+20.15 %
+
 Steps:
 1. Data
     a. import data using pandas
@@ -24,6 +33,8 @@ Steps:
     a. run algorithm through 5 training and testing sets provided by Data
     b. Report Accuracy with each training and testing set
     c. compare mean accuracy of mlp algorithm and random guess algorithm
+
+
 """
 class Data:
     def __init__(self, file):
